@@ -1,0 +1,18 @@
+{
+  "name": "StationMusic",
+  "main": "index.js",
+  "author": "KainoVaii",
+  "version": "1.5.0",
+  "repository": "https://github.com/kainovaii/Station47-Music.git",
+  "description": "Station47 music bot",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord-player": "^3.3.2",
+    "discord.js": "^12.5.1",
+    "dotenv": "^10.0.0",
+    "ffmpeg-static": "^4.2.7"
+  }
+}
