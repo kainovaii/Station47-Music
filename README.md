@@ -1,53 +1,30 @@
 ﻿# Station47 Music
 
-- For configuration
-
-```js
-discord: {
-    token: 'TOKEN',
-    prefix: 'PREFIX',
-    activity: 'ACTIVITY',
-}
-```
-
-- `token`, the token of the bot available on the [Discord Developers](https://discordapp.com/developers/applications) section.
-- `prefix`, the prefix that will be set to use the bot.
-- `activity`, the activity of the bot.
-
-In the console, type `npm install` to install all dependencies.
-
-- To start the bot :
+### ▶️  Pour démarrer le bot :
 
 ```
-#With Node
 node index.js
-npm start #Indicated in package.json
+npm start
 ```
 
-All you have to do is turn on your bot !
-
-### 🎵 Music commands
+### 🎵 Commandes musicales
 
 ```
-play <name/URL>, play music in a voice channel.
-search <name>, open a panel to choose a music and then play it.
-pause, pause the current music.
-resume, puts the current music back on.
-queue, see the next songs.
-clear-queue, remove music in the queue.
-shuffle, to mix the queue.
-nowplaying, see music in progress.
-loop, to enable or disable the repeat function.
-volume <1 - 100>, change the volume.
-skip, skip to next music.
-stop, stop all music.
-filter <filter>, add / remove filter.
-w-filters, see filters.
+play <name/URL>, jouer de la musique dans un canal vocal.
+search <name>, ouvrez un panneau pour choisir une musique, puis jouez-la.
+pause, mettre en pause la musique en cours.
+queue, voir les prochaines chansons.
+clear-queue, supprimer les musiques dans la file d'attente.
+nowplaying, voir la musique en cours.
+loop, pour activer ou désactiver la fonction de répétition.
+volume <1 - 100>, changer le son.
+skip, passer à la musique suivante.
+stop, arrêter la musique.
 ```
 
-### 💡 General commands
+### 💡 Commandes générales
 
 ```
-ping, see the bot latency.
-help, see the list of available commands.
-debug, see number of voice connections.
+ping, voir la latence du bot.
+help, voir la liste des commandes disponibles.
+debug, voir le nombre de connexions vocales.

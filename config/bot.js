@@ -11,7 +11,7 @@ module.exports = {
     discord: {
         token: process.env.DISCORD_TOKEN,
         prefix: '*',
-        activity: 'Version de test',
+        activity: 'Station47.net',
         username: 'Itomori',
         avatar: 'https://i0.hdslb.com/bfs/article/8f0c462b954e607014be312736e4e1dd91b0e4ae.jpg@942w_942h_progressive.webp',
 

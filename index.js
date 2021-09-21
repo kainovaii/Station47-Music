@@ -1,5 +1,6 @@
 const fs = require('fs');
 const discord = require('discord.js');
+const con = require("./config/db.js");
 
 const client = new discord.Client({ disableMentions: 'everyone' });
 
@@ -11,6 +12,7 @@ client.lang = require('./config/lang');
 client.emotes = client.config.emojis;
 client.filters = client.config.filters;
 client.commands = new discord.Collection();
+client.con = con;
 
 fs.readdirSync('./commands').forEach(dirs => {
     const commands = fs.readdirSync(`./commands/${dirs}`).filter(files => files.endsWith('.js'));
