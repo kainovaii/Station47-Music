@@ -1,5 +1,5 @@
 module.exports = {
-    get: function(con, callback) {
+    getService: function(con, callback) {
         con.query("SELECT * FROM services_block", callback)
     }
 }
