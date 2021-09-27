@@ -8,11 +8,11 @@ module.exports = async (client) => {
         .then(user => console.log(`Activity has been set !`))
         .catch(console.error);
 
-    TestModel.getService(client.con, function(err, rows) {
-        rows.forEach(function (data) {
-            console.log(data.content)
-        });
-    })
+    //    TestModel.getService(client.con, function(err, rows) {
+    //         rows.forEach(function (data) {
+    //             console.log(data.content)
+    //         });
+    //     })
 
 	//    client.user.setPresence({ status: 'dnd' })
     //          .then(user => console.log(`Status has been set !`))
