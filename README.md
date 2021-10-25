@@ -1,13 +1,13 @@
 ﻿# Station47 Music
 
-### ▶️  Pour démarrer le bot :
+### Pour démarrer le bot :
 
 ```
 node index.js
 npm start
 ```
 
-### 🎵 Commandes musicales
+### Commandes musicales
 
 ```
 play <name/URL>, jouer de la musique dans un canal vocal.
@@ -22,7 +22,7 @@ skip, passer à la musique suivante.
 stop, arrêter la musique.
 ```
 
-### 💡 Commandes générales
+### Commandes générales
 
 ```
 ping, voir la latence du bot.
